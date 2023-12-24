@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+  }
+
+  h1{
+    font-family: 'Roboto', arial;
+
+  }
+
+.container{
+    display:flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.nav-bar{
+    display:flex;
+    background: #1f2937;
+    color:#f9f8fa;
+    align-items: start;
+    /* border: 2px solid red; */
+
+}
+.nav-bar .logo img{
+    width: 60px;
+    padding: 10px 80px 10px 80px;
+    margin-right: auto;
+    /* border: 2px solid red; */
+
+}
+
+.nav-bar .links a{
+    text-decoration:none;
+    color: #e5e7eb;
+    font-size: 24px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    padding: 0px 20px 0px 20px;
+}
+
+.nav-bar .links{
+    justify-content: space-between;
+    margin-left: auto;
+    padding: 40px 100px 60px 0px;
+    /* border: 2px solid red; */
+
+}
+
+.hero{
+    display:flex;
+    flex-direction: row;
+    padding:100px;
+    background: #1f2937;;
+    justify-content: center;
+    align-items: center;
+}
+.hero .hero-text{
+    flex-basis:400px;
+    /* border: 2px solid red; */
+    padding: 0px 30px 0px 0px;  
+}
+
+.hero .hero-text h1{
+    font-size: 48px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /* border: 2px solid red; */
+    color:#f9f8fa
+}
+
+.hero .hero-text p{
+    font-size: 18px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    /* border: 2px solid red; */
+    color:#e5e7eb
+}
+
+.hero .hero-image{
+    image-rendering: optimizeQuality;
+}
+
+.hero .hero-image img{
+    width: 60px;
+    /* padding: 10px 80px 10px 80px; */
+    width: 600px;
+}
