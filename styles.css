@@ -158,7 +158,7 @@ h2 {
 
 .blue-box{
     display:flex;
-    flex: 1;
+    flex: 1 1 auto;
     background:#3882f6;
     margin: 25px;
     text-align: left;
